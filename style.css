@@ -72,10 +72,9 @@
   justify-content: center;
   color: #EE9B01;
   margin-bottom: 45px;
-  padding-top: 45px;
 }
 
-.bestsellers__block{
+.bestsellers__block, .novelty__block, .experience{
   background-color: #C8D2D1;
 }
 
@@ -90,11 +89,11 @@
   margin: 15px 0px 30px 0px;
 }
 
-.bestsellers__list__image{
+.bestsellers__list__image, .novelty__list__image{
   width: 179px;
 }
 
-.bestsellers__list__button{
+.bestsellers__list__button, .novelty__list__button{
   display: flex;
   padding: 8px 24.22px 9.5px 25px;
   justify-content: center;
@@ -110,14 +109,24 @@
   line-height: 22.5px; 
 }
 
-.elementor__expert{
-  margin-top: 100px;
-  display: flex;
+.container{
+  padding-top: 40px;
 }
 
-.elementor__expert h1{
+.elementor__expert{
+  margin-top: 160px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.elementor__expert h1, .novelty h1{
   display: flex;
   justify-content: center;
+  color: #EE9B01;
+}
+
+.elementor__expert__block{
+  display: flex;
 }
 
 .microscope__image{
@@ -127,7 +136,7 @@
 .elementor__expert__first__block{
   background-color: #EE9B01;
   padding: 55px 0px 55px 0px;
-  margin-top: 120px;
+  margin-top: 150px;
   width: 800px;
   height: 350px;
 }
@@ -146,4 +155,44 @@
   color: #EE9B01;
   font-size: 25px;
   margin: 20px;
+}
+
+.banner__two img{
+  width: 100%;
+}
+
+.novelty__list{
+  display: flex;
+  margin-top: 45px;
+  justify-content: space-between;
+}
+
+.novelty__list div h6 {
+  font-size: 18px;
+  color: #EE9B01;
+  margin: 15px 0px 30px 0px;
+}
+
+.experience{
+  padding-top: 140px;
+}
+
+.experience__image img{
+  width: 70%;
+  height: auto;
+}
+
+.experience__image{
+  width: 710px;
+}
+
+.experience__image__block{
+  display: flex;
+
+}
+
+.experience__block{
+  width: 400px;
+  height: 300px;
+  background-color: #FFF;
 }
