@@ -74,8 +74,12 @@
   margin-bottom: 45px;
 }
 
-.bestsellers__block, .novelty__block, .experience{
+.bestsellers__block, .novelty__block, .experience, .review__block{
   background-color: #C8D2D1;
+}
+
+.review__block{
+  padding-bottom: 180px;
 }
 
 .bestsellers__list{
@@ -119,7 +123,7 @@
   flex-wrap: wrap;
 }
 
-.elementor__expert h1, .novelty h1, .advantage__block h1{
+.elementor__expert h1, .novelty h1, .advantage__block h1, .review h1{
   display: flex;
   justify-content: center;
   color: #EE9B01;
@@ -171,6 +175,18 @@
   font-size: 18px;
   color: #EE9B01;
   margin: 15px 0px 30px 0px;
+}
+
+.review__wrapper{
+  margin-top: 45px;
+  background-color: #EE9B01;
+  width: 600px;
+  height: 250px;
+}
+
+.review__wrapper p{
+  padding: 20px;
+  font-size: 25px;
 }
 
 .experience{
@@ -236,4 +252,43 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+}
+
+.registration__block{
+  background-color: #C8D2D1;
+  padding-bottom: 80px;
+}
+
+.registration__block__text{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-between;
+  color: #EE9B01;
+  font-size: 22px;
+  padding: 40px 0px 0px 0px;
+}
+
+.registration__input{
+  background-color: #EE9B01 !important;
+  border-radius: 0px !important;
+  color: #757575 !important;
+}
+
+.registration__block__button{
+  background-color: #EE9B01 !important;
+  color: #14471E !important;
+  border: 1px solid #68904D !important;
+  border-radius: 0px !important;
+}
+
+.footer__list{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer__list__item p{
+  margin: 0;
+  color: #EE9B01;
 }
